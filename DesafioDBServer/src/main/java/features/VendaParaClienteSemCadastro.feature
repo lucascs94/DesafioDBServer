@@ -10,7 +10,7 @@ Funcionalidade: Venda para um cliente sem cadastro na loja
     E prossigo para o carrinho
     E prossigo para o checkout
     E preencho o email e inicio o cadastro
-      | email               |
+      | email                            |
       | mail.teste.automacao@mail.com.br |
     E preencho as informacoes pessoais do cliente
       | nome   | sobrenome | senha  |
