@@ -17,7 +17,7 @@ public class EnderecoPage extends EnderecoPageElements {
 	
 	public void validaNomeCompleto(String nome) {
 		if(nomeCompleto.getText().equals(nome)) {
-			ReportUtils.logMensagemInfoPrint("Nome do cliente validado com sucesso.");
+			ReportUtils.logMensagemInfo("Nome do cliente validado com sucesso.");
 		} else {
 		ReportUtils.logMensagemFalhaPrint("Nome do cliente está incorreto.");
 		assertTrue(nomeCompleto.getText().equals(nome));
@@ -26,7 +26,7 @@ public class EnderecoPage extends EnderecoPageElements {
 	
 	public void validaEnderecoCompleto(String endereco) {
 		if(enderecoCompleto.getText().equals(endereco)) {
-			ReportUtils.logMensagemInfoPrint("Endereço do cliente validado com sucesso.");
+			ReportUtils.logMensagemInfo("Endereço do cliente validado com sucesso.");
 		} else {
 		ReportUtils.logMensagemFalhaPrint("Endereço do cliente está incorreto.");
 		assertTrue(enderecoCompleto.getText().equals(endereco));
@@ -35,7 +35,7 @@ public class EnderecoPage extends EnderecoPageElements {
 	
 	public void validaInformacoesCep(String cep) {
 		if(informacoesCep.getText().equals(cep)) {
-			ReportUtils.logMensagemInfoPrint("Informações do cep do cliente validadas com sucesso.");
+			ReportUtils.logMensagemInfo("Informações do cep do cliente validadas com sucesso.");
 		} else {
 		ReportUtils.logMensagemFalhaPrint("Informações do cep do cliente estão incorretas.");
 		assertTrue(informacoesCep.getText().equals(cep));
@@ -44,7 +44,7 @@ public class EnderecoPage extends EnderecoPageElements {
 	
 	public void validaPais(String nomePais) {
 		if(pais.getText().equals(nomePais)) {
-			ReportUtils.logMensagemInfoPrint("País de residência do cliente validado com sucesso.");
+			ReportUtils.logMensagemInfo("País de residência do cliente validado com sucesso.");
 		} else {
 		ReportUtils.logMensagemFalhaPrint("País de residência do cliente está incorreto.");
 		assertTrue(pais.getText().equals(nomePais));
